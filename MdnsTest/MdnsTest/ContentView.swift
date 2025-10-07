@@ -32,7 +32,6 @@ struct ContentView: View {
                     VStack(alignment: .leading, spacing: 8) {
                         Label("mDNS discovery active", systemImage: "wifi")
                         Label("Searching local network", systemImage: "network")
-                        Label("Using swarm-discovery (PATCHED)", systemImage: "applelogo")
                     }
                     .font(.caption)
                     .foregroundColor(.secondary)
