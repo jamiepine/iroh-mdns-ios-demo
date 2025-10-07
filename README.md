@@ -139,10 +139,10 @@ When peers discover each other, you'll see:
 
 ```
 Peer discovered:
-  Node ID: <peer-node-id>
+  Node ID: a8a2977385602aa4732868253fd0383678b37841d1bced7596456c60c768bab5
   User data: Some(UserData("alice"))
   Source: mdns
-  SUCCESS: Discovered peer 'alice'! Cross-platform mDNS discovery working.
+[[[ SUCCESS ]]]: Discovered peer 'alice'!
 ```
 
 The `user_data` field provides definitive peer identification.
