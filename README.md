@@ -30,7 +30,6 @@ The `mdns-peer` crate provides both:
   rustup target add aarch64-apple-ios aarch64-apple-ios-sim
   ```
 - Xcode with iOS SDK
-- Local iroh repository at `../iroh/iroh`
 
 ## Building
 
