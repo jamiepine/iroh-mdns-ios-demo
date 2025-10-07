@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6AF6B6F32E949305008BD2A8 /* mdns_peer.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AF6B6F22E949305008BD2A8 /* mdns_peer.xcframework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6AF6B6B72E93ED89008BD2A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AF6B6A12E93ED87008BD2A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AF6B6A82E93ED87008BD2A8;
+			remoteInfo = MdnsTest;
+		};
+		6AF6B6C12E93ED89008BD2A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AF6B6A12E93ED87008BD2A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AF6B6A82E93ED87008BD2A8;
+			remoteInfo = MdnsTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6AF6B6D92E946BDE008BD2A8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6AF6B6A92E93ED87008BD2A8 /* MdnsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MdnsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AF6B6B62E93ED89008BD2A8 /* MdnsTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MdnsTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AF6B6C02E93ED89008BD2A8 /* MdnsTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MdnsTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AF6B6F22E949305008BD2A8 /* mdns_peer.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = mdns_peer.xcframework; path = "../mdns-peer/mdns_peer.xcframework"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		6AF6B6EF2E947C14008BD2A8 /* Exceptions for "MdnsTest" folder in "MdnsTest" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 6AF6B6A82E93ED87008BD2A8 /* MdnsTest */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		6AF6B6AB2E93ED87008BD2A8 /* MdnsTest */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				6AF6B6EF2E947C14008BD2A8 /* Exceptions for "MdnsTest" folder in "MdnsTest" target */,
+			);
+			path = MdnsTest;
+			sourceTree = "<group>";
+		};
+		6AF6B6B92E93ED89008BD2A8 /* MdnsTestTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MdnsTestTests;
+			sourceTree = "<group>";
+		};
+		6AF6B6C32E93ED89008BD2A8 /* MdnsTestUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MdnsTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6AF6B6A62E93ED87008BD2A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AF6B6F32E949305008BD2A8 /* mdns_peer.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AF6B6B32E93ED89008BD2A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AF6B6BD2E93ED89008BD2A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6AF6B6A02E93ED87008BD2A8 = {
+			isa = PBXGroup;
+			children = (
+				6AF6B6AB2E93ED87008BD2A8 /* MdnsTest */,
+				6AF6B6B92E93ED89008BD2A8 /* MdnsTestTests */,
+				6AF6B6C32E93ED89008BD2A8 /* MdnsTestUITests */,
+				6AF6B6AA2E93ED87008BD2A8 /* Products */,
+				6AF6B6F22E949305008BD2A8 /* mdns_peer.xcframework */,
+			);
+			sourceTree = "<group>";
+		};
+		6AF6B6AA2E93ED87008BD2A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6AF6B6A92E93ED87008BD2A8 /* MdnsTest.app */,
+				6AF6B6B62E93ED89008BD2A8 /* MdnsTestTests.xctest */,
+				6AF6B6C02E93ED89008BD2A8 /* MdnsTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6AF6B6A82E93ED87008BD2A8 /* MdnsTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AF6B6CA2E93ED89008BD2A8 /* Build configuration list for PBXNativeTarget "MdnsTest" */;
+			buildPhases = (
+				6AF6B6A52E93ED87008BD2A8 /* Sources */,
+				6AF6B6A62E93ED87008BD2A8 /* Frameworks */,
+				6AF6B6A72E93ED87008BD2A8 /* Resources */,
+				6AF6B6D92E946BDE008BD2A8 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				6AF6B6AB2E93ED87008BD2A8 /* MdnsTest */,
+			);
+			name = MdnsTest;
+			packageProductDependencies = (
+			);
+			productName = MdnsTest;
+			productReference = 6AF6B6A92E93ED87008BD2A8 /* MdnsTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6AF6B6B52E93ED89008BD2A8 /* MdnsTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AF6B6CD2E93ED89008BD2A8 /* Build configuration list for PBXNativeTarget "MdnsTestTests" */;
+			buildPhases = (
+				6AF6B6B22E93ED89008BD2A8 /* Sources */,
+				6AF6B6B32E93ED89008BD2A8 /* Frameworks */,
+				6AF6B6B42E93ED89008BD2A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AF6B6B82E93ED89008BD2A8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6AF6B6B92E93ED89008BD2A8 /* MdnsTestTests */,
+			);
+			name = MdnsTestTests;
+			packageProductDependencies = (
+			);
+			productName = MdnsTestTests;
+			productReference = 6AF6B6B62E93ED89008BD2A8 /* MdnsTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6AF6B6BF2E93ED89008BD2A8 /* MdnsTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AF6B6D02E93ED89008BD2A8 /* Build configuration list for PBXNativeTarget "MdnsTestUITests" */;
+			buildPhases = (
+				6AF6B6BC2E93ED89008BD2A8 /* Sources */,
+				6AF6B6BD2E93ED89008BD2A8 /* Frameworks */,
+				6AF6B6BE2E93ED89008BD2A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AF6B6C22E93ED89008BD2A8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6AF6B6C32E93ED89008BD2A8 /* MdnsTestUITests */,
+			);
+			name = MdnsTestUITests;
+			packageProductDependencies = (
+			);
+			productName = MdnsTestUITests;
+			productReference = 6AF6B6C02E93ED89008BD2A8 /* MdnsTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6AF6B6A12E93ED87008BD2A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					6AF6B6A82E93ED87008BD2A8 = {
+						CreatedOnToolsVersion = 26.0.1;
+					};
+					6AF6B6B52E93ED89008BD2A8 = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = 6AF6B6A82E93ED87008BD2A8;
+					};
+					6AF6B6BF2E93ED89008BD2A8 = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = 6AF6B6A82E93ED87008BD2A8;
+					};
+				};
+			};
+			buildConfigurationList = 6AF6B6A42E93ED87008BD2A8 /* Build configuration list for PBXProject "MdnsTest" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6AF6B6A02E93ED87008BD2A8;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6AF6B6AA2E93ED87008BD2A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6AF6B6A82E93ED87008BD2A8 /* MdnsTest */,
+				6AF6B6B52E93ED89008BD2A8 /* MdnsTestTests */,
+				6AF6B6BF2E93ED89008BD2A8 /* MdnsTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6AF6B6A72E93ED87008BD2A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AF6B6B42E93ED89008BD2A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AF6B6BE2E93ED89008BD2A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6AF6B6A52E93ED87008BD2A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AF6B6B22E93ED89008BD2A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AF6B6BC2E93ED89008BD2A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6AF6B6B82E93ED89008BD2A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6AF6B6A82E93ED87008BD2A8 /* MdnsTest */;
+			targetProxy = 6AF6B6B72E93ED89008BD2A8 /* PBXContainerItemProxy */;
+		};
+		6AF6B6C22E93ED89008BD2A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6AF6B6A82E93ED87008BD2A8 /* MdnsTest */;
+			targetProxy = 6AF6B6C12E93ED89008BD2A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6AF6B6C82E93ED89008BD2A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = ZYS9K9Q88U;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6AF6B6C92E93ED89008BD2A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = ZYS9K9Q88U;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6AF6B6CB2E93ED89008BD2A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YB4V2VA9YY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MdnsTest/Info.plist;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Discover peers on local network using mDNS";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spacedrive.MdnsTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6AF6B6CC2E93ED89008BD2A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YB4V2VA9YY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MdnsTest/Info.plist;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Discover peers on local network using mDNS";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spacedrive.MdnsTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6AF6B6CE2E93ED89008BD2A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZYS9K9Q88U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spacedrive.spacedrive.MdnsTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MdnsTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MdnsTest";
+			};
+			name = Debug;
+		};
+		6AF6B6CF2E93ED89008BD2A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZYS9K9Q88U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spacedrive.spacedrive.MdnsTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MdnsTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MdnsTest";
+			};
+			name = Release;
+		};
+		6AF6B6D12E93ED89008BD2A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZYS9K9Q88U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spacedrive.spacedrive.MdnsTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MdnsTest;
+			};
+			name = Debug;
+		};
+		6AF6B6D22E93ED89008BD2A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZYS9K9Q88U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spacedrive.spacedrive.MdnsTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MdnsTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6AF6B6A42E93ED87008BD2A8 /* Build configuration list for PBXProject "MdnsTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AF6B6C82E93ED89008BD2A8 /* Debug */,
+				6AF6B6C92E93ED89008BD2A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AF6B6CA2E93ED89008BD2A8 /* Build configuration list for PBXNativeTarget "MdnsTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AF6B6CB2E93ED89008BD2A8 /* Debug */,
+				6AF6B6CC2E93ED89008BD2A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AF6B6CD2E93ED89008BD2A8 /* Build configuration list for PBXNativeTarget "MdnsTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AF6B6CE2E93ED89008BD2A8 /* Debug */,
+				6AF6B6CF2E93ED89008BD2A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AF6B6D02E93ED89008BD2A8 /* Build configuration list for PBXNativeTarget "MdnsTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AF6B6D12E93ED89008BD2A8 /* Debug */,
+				6AF6B6D22E93ED89008BD2A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6AF6B6A12E93ED87008BD2A8 /* Project object */;
+}

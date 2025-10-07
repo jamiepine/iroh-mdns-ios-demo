@@ -1,0 +1,23 @@
+[package]
+name = "mdns-peer"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "mdns-peer"
+path = "src/main.rs"
+
+[lib]
+name = "mdns_peer"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[dependencies]
+iroh = { workspace = true }
+tokio = { workspace = true }
+tracing = { workspace = true }
+tracing-subscriber = { workspace = true }
+anyhow = { workspace = true }
+n0-future = { workspace = true }
+
+[build-dependencies]
+cbindgen = "0.27"
