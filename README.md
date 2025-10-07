@@ -173,13 +173,6 @@ WARN swarm_discovery::socket: error sending mDNS: No route to host (os error 65)
 - **Physical Device:** One-way discovery only. iOS (Bob) successfully receives and discovers desktop (Alice), but fails to send mDNS responses (errno 65). Desktop (Alice) never discovers iOS peer, even with correct iOS entitlements and granted permissions
 - **Info.plist:** Requires `NSLocalNetworkUsageDescription` and `NSBonjourServices` (already configured)
 
-## Dependencies
-
-This test uses a local iroh repository:
-
-- Path: `../iroh/iroh`
-- Feature: `discovery-local-network`
-
 ## License
 
 Same as iroh project (MIT/Apache-2.0)
